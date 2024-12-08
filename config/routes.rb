@@ -51,6 +51,7 @@ Rails.application.routes.draw do
     get "tabs", to: "docs#tabs", as: :docs_tabs
     get "textarea", to: "docs#textarea", as: :docs_textarea
     get "theme_toggle", to: "docs#theme_toggle", as: :docs_theme_toggle
+    get "toggle", to: "docs#toggle", as: :docs_toggle
     get "tooltip", to: "docs#tooltip", as: :docs_tooltip
     get "typography", to: "docs#typography", as: :docs_typography
   end

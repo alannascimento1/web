@@ -79,6 +79,9 @@ application.register("ruby-ui--tabs", RubyUi__TabsController)
 import RubyUi__ThemeToggleController from "./ruby_ui/theme_toggle_controller"
 application.register("ruby-ui--theme-toggle", RubyUi__ThemeToggleController)
 
+import RubyUi__ToggleController from "./ruby_ui/toggle_controller"
+application.register("ruby-ui--toggle", RubyUi__ToggleController)
+
 import RubyUi__TooltipController from "./ruby_ui/tooltip_controller"
 application.register("ruby-ui--tooltip", RubyUi__TooltipController)
 

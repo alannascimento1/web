@@ -97,6 +97,7 @@ class Shared::Menu < ApplicationComponent
       {name: "Table", path: helpers.docs_table_path},
       {name: "Tabs", path: helpers.docs_tabs_path},
       {name: "Textarea", path: helpers.docs_textarea_path},
+      {name: "Toggle", path: helpers.docs_toggle_path},
       {name: "Theme Toggle", path: helpers.docs_theme_toggle_path},
       {name: "Tooltip", path: helpers.docs_tooltip_path},
       {name: "Typography", path: helpers.docs_typography_path}

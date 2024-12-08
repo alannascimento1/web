@@ -182,6 +182,10 @@ class DocsController < ApplicationController
     render Docs::ThemeToggleView.new
   end
 
+  def toggle
+    render Docs::ToggleView.new
+  end
+
   def tooltip
     render Docs::TooltipView.new
   end
